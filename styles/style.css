@@ -1,3 +1,31 @@
+:root {
+    --cinza-principal: #222831;
+    --cinza-secundario: #31363F;
+    --azul-terciario: #76ABAE;
+    --branco-quartenario: #EEEEEE;
+}
+
+.body {
+    background-color: var(--cinza-principal);
+}
+
+.container {
+    display: flex;
+}
+
+.container__texto {
+    text-align: center;
+    padding: 5em;
+}
+
+.container__texto_titulo {
+    font-size: 50px;
+}
+
+.container__texto__lista {
+    marker: none;
+}
+
 .rodape {
     text-align: center;
 }
