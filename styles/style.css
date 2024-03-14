@@ -5,8 +5,14 @@
     --branco-quartenario: #EEEEEE;
 }
 
-.body {
+.cabecario {
+    display: flex;
+    align-items: end;
+}
+
+body {
     background-color: var(--cinza-principal);
+    color: var(--branco-quartenario);
 }
 
 .container {
@@ -23,7 +29,7 @@
 }
 
 .container__texto__lista {
-    marker: none;
+    list-style-type: none;
 }
 
 .rodape {
@@ -45,8 +51,12 @@
 }
 
 .lista__link a{
-    color: black;
+    color: var(--branco-quartenario);
+    background-color: var(--cinza-secundario);
     text-decoration: none;
     margin-left: 1em;
     padding: 10px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: var(--azul-terciario);
 }
