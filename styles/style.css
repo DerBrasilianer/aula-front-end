@@ -13,6 +13,7 @@
 
 .cabecalho {
     padding: 1% 0% 1% 0% ;
+    width: 530px;
 }
 
 .cabecalho__menu {
@@ -27,6 +28,7 @@
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
+    list-style-type: none;
 }
 
 .cabecalho__menu__link:hover {
@@ -40,6 +42,8 @@ body {
 
 .container {
     display: flex;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .container__image {
@@ -115,6 +119,50 @@ body {
 .receita__preparo__lista__item {
     align-items: center;
     padding: 5px;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.tarefas__titulo {
+    text-align: center;
+    color: var(--cor-secundaria);
+    padding-top: 50px;
+}
+
+.tarefas__lista {
+    text-align: center;
+    color: var(--cor-secundaria);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tarefas__lista__bloco {
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.tarefas__lista__item {
+    font-family: var(--fonte-secundaria);
+    align-items: center;
+    padding: 5px;
+}
+
+.tarefas__imagem {
+    display: flex;
+    justify-content: center;
+}
+
+.tarefas__imagem__item {
+    margin: 5px;
+    border-style: solid;
+    border-color: var(--cor-secundaria);
+    margin-bottom: 100px;
 }
 
 .rodape {
